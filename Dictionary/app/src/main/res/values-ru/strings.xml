@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">"Словарь"</string>
+    <string name="button_play">"Играть"</string>
+    <string name="button_addWord">"Добавить слово"</string>
+    <string name="button_switch">"Сменить"</string>
+    <string name="text_word">"Слово"</string>
+    <string name="text_meaning">"Значение"</string>
+    <string name="toast_congrats">"Поздравляю!"</string>
+    <string name="toast_loser">"Неудачник"</string>
+    <string name="toast_added">Добавлено успешно</string>
+</resources>

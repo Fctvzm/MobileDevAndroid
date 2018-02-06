@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">"Приложение Профиль"</string>
+    <string name="profile_name">"Имя: Пушкин, Александр Сергеевич"</string>
+    <string name="country">"Страна: Россия"</string>
+    <string name="occupation">"Род занятий: Поэт"</string>
+</resources>

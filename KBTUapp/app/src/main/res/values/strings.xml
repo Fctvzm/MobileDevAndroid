@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KBTUapp</string>
+    <integer name="com_vk_sdk_AppId">6201005</integer>
+</resources>

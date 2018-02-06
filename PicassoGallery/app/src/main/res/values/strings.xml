@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PicassoGallery</string>
+    <string-array name="pictureNames">
+        <item>picture1</item>
+        <item>picture2</item>
+        <item>picture3</item>
+        <item>picture4</item>
+    </string-array>
+</resources>

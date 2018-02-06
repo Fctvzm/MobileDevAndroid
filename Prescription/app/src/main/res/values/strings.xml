@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prescription</string>
+    <string name="dose">Dose: %1$s</string>
+    <string name="freguency">Frequency: %1$d</string>
+    <string name="intsr">%1$s</string>
+    <string name="duration">Duration: %1$d days</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="button_play">Play</string>
+    <string name="button_addWord">Add Word</string>
+    <string name="button_switch">Switch</string>
+    <string name="text_word">Word</string>
+    <string name="text_meaning">Meaning</string>
+    <string name="toast_congrats">Congrats</string>
+    <string name="toast_loser">Loser</string>
+    <string name="toast_added">Added successfuly</string>
+</resources>

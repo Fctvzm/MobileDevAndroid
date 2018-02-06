@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "147591334531",
+    "firebase_url": "https://supercook-d7d4a.firebaseio.com",
+    "project_id": "supercook-d7d4a",
+    "storage_bucket": "supercook-d7d4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147591334531:android:e522ab936c33129e",
+        "android_client_info": {
+          "package_name": "com.example.assem.supercook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147591334531-2paroi46a4l06bc0598aoon53vidp2u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVyb1LNNQHzK5MuuJjuIyLhuXL4QlonpA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

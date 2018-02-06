@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProfileApp</string>
+    <string name="profile_name">Name: Benedict Cumberbatch</string>
+    <string name="country">Country: Breat Britian</string>
+    <string name="occupation">Occupation: Actor</string>
+</resources>
