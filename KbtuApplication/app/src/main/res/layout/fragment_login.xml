@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurzhaussyn.kbtuapplication.LoginFragment"
+    android:background="@color/vk_share_top_blue_color">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/vk_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="-170dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Sign in with VK to see events from groups of KBTU"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/vk_white"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:lineSpacingMultiplier="1.3"/>
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/vk_white"
+        android:layout_gravity="center"
+        android:text="Sign in with VK"
+        android:paddingLeft="60dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="60dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/vk_share_blue_color"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"
+        android:textSize="16sp" />
+
+</FrameLayout>

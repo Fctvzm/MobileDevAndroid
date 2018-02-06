@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"/>
+
+        <LinearLayout
+            android:id="@+id/sliderDots"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="240dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@color/back">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Faculty of Information Technology"
+                android:textColor="@color/btn1HeaderColor"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="15dp"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn1_1"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:background="@color/btn1Color"
+                        android:layout_margin="4dp"
+                        android:textSize="8dp"
+                        android:textColor="@android:color/white"
+                        android:text="Parallel Programming" />
+
+                    <Button
+                        android:id="@+id/btn1_2"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:textSize="8dp"
+                        android:layout_margin="4dp"
+                        android:textColor="@android:color/white"
+                        android:background="@color/btn1Color"
+                        android:text="Software Engineering"/>
+
+                    <Button
+                        android:id="@+id/btn1_3"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="4dp"
+                        android:background="@color/btn1Color"
+                        android:text="Algorithms and Data Str."
+                        android:textColor="@android:color/white"
+                        android:textSize="8dp" />
+
+                    <Button
+                        android:id="@+id/btn1_4"
+                        android:layout_width="90dp"
+                        android:textSize="8dp"
+                        android:layout_margin="4dp"
+                        android:layout_height="70dp"
+                        android:textColor="@android:color/white"
+                        android:background="@color/btn1Color"
+                        android:text="Programming Technologies"/>
+
+                    <Button
+                        android:id="@+id/btn1_5"
+                        android:layout_width="90dp"
+                        android:textSize="8dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="4dp"
+                        android:textColor="@android:color/white"
+                        android:background="@color/btn1Color"
+                        android:text="Foundation of WEB Programm."/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Faculty of Geology, Oil and Gas Industry"
+                android:textColor="@color/btn2HeaderColor"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="15dp"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn2_1"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="4dp"
+                        android:background="@color/btn2Color"
+                        android:textSize="8dp"
+                        android:textColor="@android:color/white"
+                        android:text="Ecology and Sustain. Developm." />
+
+                    <Button
+                        android:id="@+id/btn2_2"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="4dp"
+                        android:background="@color/btn2Color"
+                        android:textColor="@android:color/white"
+                        android:textSize="8dp"
+                        android:text="Rock and Fluid Properties"/>
+
+                    <Button
+                        android:id="@+id/btn2_3"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="4dp"
+                        android:textColor="@android:color/white"
+                        android:background="@color/btn2Color"
+                        android:textSize="8dp"
+                        android:text="Fundamentals of Robotics"/>
+
+                    <Button
+                        android:id="@+id/btn2_4"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="4dp"
+                        android:textColor="@android:color/white"
+                        android:background="@color/btn2Color"
+                        android:textSize="8dp"
+                        android:text="Basics of Reservoir Engineering"/>
+
+                    <Button
+                        android:id="@+id/btn2_5"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="4dp"
+                        android:textColor="@android:color/white"
+                        android:background="@color/btn2Color"
+                        android:textSize="8dp"
+                        android:text="Общие Правила Гидравлики"/>
+
+                    <Button
+                        android:id="@+id/btn2_6"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="4dp"
+                        android:textColor="@android:color/white"
+                        android:background="@color/btn2Color"
+                        android:textSize="8dp"
+                        android:text="Разрушение горных пород при бурении"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Business School"
+                android:textColor="@color/btn3HeaderColor"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="15dp"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn3_1"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:textSize="8dp"
+                        android:textColor="@android:color/white"
+                        android:layout_margin="4dp"
+                        android:background="@color/btn3Color"
+                        android:text="Introduction to Marketing" />
+
+                    <Button
+                        android:id="@+id/btn3_2"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:textSize="8dp"
+                        android:textColor="@android:color/white"
+                        android:layout_margin="4dp"
+                        android:background="@color/btn3Color"
+                        android:text="Corporate Finance Data "/>
+
+                    <Button
+                        android:id="@+id/btn3_3"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:textSize="8dp"
+                        android:textColor="@android:color/white"
+                        android:layout_margin="4dp"
+                        android:background="@color/btn3Color"
+                        android:text="Data Analysis Econ. Forecas."/>
+
+                    <Button
+                        android:id="@+id/btn3_4"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:textSize="8dp"
+                        android:textColor="@android:color/white"
+                        android:layout_margin="4dp"
+                        android:background="@color/btn3Color"
+                        android:text="Principles of Economics"/>
+
+                    <Button
+                        android:id="@+id/btn3_5"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:textSize="8dp"
+                        android:textColor="@android:color/white"
+                        android:layout_margin="4dp"
+                        android:background="@color/btn3Color"
+                        android:text="Intro. to Microeconom."/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

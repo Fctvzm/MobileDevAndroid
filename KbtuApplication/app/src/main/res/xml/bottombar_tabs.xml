@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/bottomBarItemOne"
+        icon="@drawable/event"
+        title="Events"
+        inActiveColor="#fefcc5"
+        activeColor="#ffbc0d"
+        barColorWhenSelected="#FA5B75"
+        badgeBackgroundColor="#FA5B75"
+        badgeHidesWhenActive="true"
+        />
+
+    <tab id="@+id/bottomBarItemTwo"
+        icon="@drawable/notif"
+        title="Notifications"
+        inActiveColor="#fefcc5"
+        activeColor="#ffbc0d"
+        barColorWhenSelected="#5A3662"
+        badgeBackgroundColor="#5A3662"
+        badgeHidesWhenActive="true"/>
+
+    <tab id="@+id/bottomBarItemThree"
+        icon="@drawable/course"
+        title="Courses"
+        inActiveColor="#fefcc5"
+        activeColor="#ffbc0d"
+        barColorWhenSelected="#ff3d46"
+        badgeBackgroundColor="#ff3d46"
+        badgeHidesWhenActive="true"/>
+</tabs>
